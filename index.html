@@ -1,0 +1,162 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Games Store</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #080808;
+            color: white;
+        }
+
+        header {
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #222;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #aaa;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        .hero {
+            padding: 100px 8%;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            color: #aaa;
+            font-size: 18px;
+        }
+
+        .games {
+            padding: 40px 8% 100px;
+        }
+
+        .games h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 25px;
+        }
+
+        .game {
+            background: #111;
+            border: 1px solid #252525;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: 0.2s;
+        }
+
+        .game:hover {
+            transform: translateY(-5px);
+            border-color: #555;
+        }
+
+        .game-image {
+            height: 180px;
+            background: #191919;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-size: 18px;
+        }
+
+        .game-content {
+            padding: 20px;
+        }
+
+        .game h3 {
+            font-size: 23px;
+            margin-bottom: 8px;
+        }
+
+        .game p {
+            color: #999;
+            min-height: 45px;
+            margin-bottom: 18px;
+        }
+
+        .download {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            padding: 12px;
+            background: white;
+            color: black;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .download:hover {
+            background: #ddd;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            border-top: 1px solid #222;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">VR GAMES</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#games">Games</a>
+        <a href="#">Discord</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>VR GAMES</h1>
+    <p>Download VR games and experiences.</p>
+</section>
+
+<section class="games" id="games">
+
+    <h2>Games</h2>
+
+    <div class="game-grid">
+
+        <div class="game">
+```
